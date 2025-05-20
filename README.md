@@ -13,7 +13,7 @@
 - [Future Enhancements](#future-enhancements)
 
 ## Overview
-Wonky Kong is a retro-inspired platformer game developed for the NachenGames Corporation, a fictional competitor to Small.ai. The game is a modern reinterpretation of the classic Donkey Kong arcade game, with additional mechanics, enemies, and player abilities. The player controls a plumber navigating through multiple levels filled with ladders, platforms, and various hazards to ultimately reach Kong and progress to the next level.
+Wonky Kong is a retro-inspired platformer game that serves as a modern reinterpretation of the classic Donkey Kong arcade game. The game is a modern reinterpretation of the classic Donkey Kong arcade game, with additional mechanics, enemies, and player abilities. The player controls a plumber navigating through multiple levels filled with ladders, platforms, and various hazards to ultimately reach Kong and progress to the next level.
 
 ## Gameplay
 In Wonky Kong, the player aims to climb ladders, dodge rolling barrels, avoid fireballs and Koopas, and collect power-ups to increase lives or gain temporary burping power. Each level is designed as a 20x20 grid consisting of platforms, ladders, enemies, and collectible items. The game continues until the player either completes all levels or loses all lives.
@@ -88,7 +88,7 @@ The game was developed using C++ with object-oriented principles to structure th
 
 ## Technical Details
 - Programming Language: C++
-- Game Framework: NachenGames GameWorld class
+- Game Framework: custom-built C++ framework for game object management and collision detection
 - Data Structures: std::vector, std::list
 - Inheritance: Implemented base and derived classes for each actor type
 - File Handling: Level data loaded via text files
@@ -97,7 +97,7 @@ The game was developed using C++ with object-oriented principles to structure th
 - Debugging Tools: GDB, Valgrind
 - Animation: Managed using the `increaseAnimationNumber()` function for graphical effects
 - **Languages Used:** C++
-- **Game Framework:** NachenGames GameWorld class
+- **Game Framework:** custom-built C++ framework for game object management and collision detection
 - **Data Structures:** STL containers (e.g., std::vector, std::list)
 - **Game Objects and Inheritance:** Implemented using OOP principles with base and derived classes for actors
 - **Collision Handling:** Implemented through bounding box checks and state management
