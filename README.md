@@ -56,7 +56,7 @@ In Wonky Kong, the player aims to climb ladders, dodge rolling barrels, avoid fi
 1. Clone the repository:
 
 ```bash
-git clone [repository-url]
+git clone [https://github.com/ShawnL57/Wonky-Kong]
 ```
 
 2. Navigate to the project directory:
